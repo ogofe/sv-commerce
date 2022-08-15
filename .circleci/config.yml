@@ -19,9 +19,9 @@ jobs:
       - run:
           command: npm run build
           name: Building Production App
-      - run:
-          command: npm run start
-          name: Starting Production server
+      # - run:
+      #     command: npm run start
+      #     name: Starting Production server
       
 
 workflows:
